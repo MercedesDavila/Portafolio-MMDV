@@ -5,29 +5,85 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <title>Portafolio de Mercedes Dávila V. - Front-End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krub|Open+Sans"> 
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
-<header class="header">
-        <a href="" class="logo">Mercedes D.</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="#AboutMe">Acerca de mí</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Proyects">Proyectos</a></li>
-          <li><a href="#CV">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </header>
 <body>
-
-    <section class ="AboutMe" id="#AboutMe">
-
+<div class="container-fluid">
+        <header class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+              <div class="container">
+                      <a class="navbar-brand text-centered" href="#top">
+                      MMDV
+                      </a>
+                  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="navbar-collapse collapse" id="navbar">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#aboutme">Acerca de mí</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#skills">Habilidades</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#portfolio">Portafolio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link d-none d-md-none d-lg-block d-xl-block" href="" target="_blank">CV</a>
+                              <a class="nav-link d-lg-none d-xl-none" href="" target="_blank">Currículum Vitae</a>
+                          </li>
+                      </ul>
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link d-none d-md-none d-lg-block d-xl-block " href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank" label="Linkedin"><i class="contact fab fa-linkedin"></i></a>
+                              <a class="nav-link d-lg-none d-xl-none" href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link d-none d-md-none d-lg-block d-xl-block" href="https://github.com/MercedesDavila" target="_blank"><i class="fab fa-github-square "></i></a>
+                              <a class="nav-link d-lg-none d-xl-none" href="https://github.com/MercedesDavila" target="_blank"><i class="fab fa-github-square"></i> Github</a>
+                          </li>
+                          <li class="nav-item">	
+                              <a class="nav-link d-none d-md-none d-lg-block d-xl-block" href="mailto:mmdavila@outlook.com"><i class="fas fa-envelope-square"></i></a>
+                              <a class="nav-link d-lg-none d-xl-none" href="mailto:mmdavila@outlook.com"><i class="fas fa-envelope-square"></i> Contacto</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            </nav>
+          </div>
+      </header>
+</div>
+    <section id="aboutme" class="row text-right">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 align-self-center" data-aos="fade-up"> 
+            <img src="" class="" alt="">
+            <h5>¡Hola! Mi nombre es María Mercedes Dávila Vázquez.</h5>
+            <h4>Front End Developer.</h4>
+            <p>Me gusta desarrollar ideas.</p>
+            <p class="icons">
+            <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-square   fa-2x"></i></a>
+            <a href="https://github.com/MercedesDavila" target="_blank" title="Github"><i class="fab fa-github-square fa-2x"></i></a>
+            <a href="mailto:mmdavila@outlook.com" title="Contacto"><i class="fas fa-envelope-square fa-2x"></i></a>
+            </p>	
+        </div>
     </section>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+
 </body>
 
 </html>
