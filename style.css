@@ -116,3 +116,11 @@ h1{
 
 
 /* Skills*/
+
+#skills {
+  text-align: center;
+  padding: 5em 2em;
+  margin: 0 -15px;
+  min-height: 100vh;
+  height: 100%;
+}
