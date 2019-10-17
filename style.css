@@ -11,7 +11,7 @@ html, body {
     -o-background-size: cover;
     overflow: hidden;
     scroll-behavior: smooth;
-    background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   }
   
   /* General Styles */
@@ -141,3 +141,24 @@ p {
   min-height: 100vh;
   height: 100%;
 }
+
+/* skills */
+
+#skills {
+  text-align: center;
+  padding: 5em 2em;
+  margin: 0 -15px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* Portfolio */
+
+#portfolio {
+  text-align: center;
+  padding: 5em 2em;
+  margin: 0 -15px;
+  min-height: 100vh;
+  height: 100%;
+}
+
