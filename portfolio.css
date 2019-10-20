@@ -42,7 +42,7 @@ body {
   position: absolute;
   height: 160px;
   width: 40px;
-  
+  background-color: honeydew;
   right: 0;
   top: 0;
   bottom: 0;
@@ -295,7 +295,7 @@ body {
   }
   
   img {
-    height: 26vh;
+    height: 34vh;
     max-width: 100%;
     vertical-align: middle;
   }
@@ -391,6 +391,7 @@ body {
     line-height: 1.5;
     margin-bottom: 1.25rem;    
     font-weight: 400;
+    text-align: center;
   }
    
   .card_text i{
@@ -398,4 +399,3 @@ body {
    }
   
   }
-  

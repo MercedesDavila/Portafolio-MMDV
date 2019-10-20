@@ -1,165 +1,181 @@
 html, body {
-    margin: 0;
-    font-family: 'Fira Sans', sans-serif;
-    background-color: #f4f4f4;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    background-image: url("https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  }
-  
-  /* General Styles */
-* {
-  padding: 0;
   margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-image: url("https://images.unsplash.com/photo-1519806870789-d65fc19601fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+}
+
+/* General Styles */
+* {
+padding: 0;
+margin: 0;
 }
 
 .ml-auto i{
-  size: 4rem;
+size: 4rem;
 }
 
 .contact i{
-  font-size: 14rem;
+font-size: 14rem;
 }
 
 .nav-link{
-  font-size: 20px;
+font-size: 20px;
 }
 
 h1{
-  color:#0c8e9c;
+color:#0c8e9c;
 }
 
 .btn {
-  font-size: 14px;
-  color: whitesmoke;
-  border: none;
-  background-color: #0c8e9c;
-  margin: 2px;
+font-size: 14px;
+color: whitesmoke;
+border: none;
+background-color: #0c8e9c;
+margin: 2px;
 }
 
 .btn:hover {
-  color: #0c8e9c;
-  background-color: whitesmoke;
+color: #0c8e9c;
+background-color: whitesmoke;
 }
 
 /* Nav */
 
 .navbar-brand {
-  color:#0c8e9c !important;
-  font-weight: bolder;
+color:#0c8e9c !important;
+font-weight: bolder;
 }
 
 .navbar-nav i{
-  font-size: 1em;
+font-size: 1em;
 }
 
 /* Header*/ 
 .fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
 }
 
 .bg-custom {
-  background-color: #f1f1f1ec;
+background-color: #f1f1f1ec;
 }
 
 .ml-auto i{
-  color: #0c8e9c;
+color: #0c8e9c;
 }
 
 .ml-auto i:hover{
-  color: #0c8e9c98;
+color: #0c8e9c98;
 }
 
 /* About */
 #aboutme {
-  text-align: center;
-  padding: 5em 2em;
-  margin: 0 -15px;
-  min-height: 100vh;
-  height: 100%;
+text-align: center;
+min-height: 100vh;
+height: 100%;
 }
 
 #aboutme h4{
-  padding: 1em auto;
-  color: #0c8e9c;
+padding: 1em auto;
+color: #0c8e9c;
 }
 
 #aboutme i{
-  color: #0c8e9c;
+color: #0c8e9c;
 }
 
 #aboutme i:hover{
-  color: #0c8e9c98;
+color: #0c8e9c98;
 }
 
 
 .col-centered{
-  float: none;
-  margin: 0 auto;
+float: none;
+margin: 0 auto;
 }
 
 .icons img {
-  width: 40px;
-  margin: 0px 2px 25px 2px;
+width: 40px;
+margin: 0px 2px 25px 2px;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+margin-top: 0;
+margin-bottom: 1rem;
+font-size: 1rem;
 }
 
 .text-left {
-  text-align: left!important;
+text-align: left!important;
 }
 
 .img-merci {
-  width: 70%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  max-width: 250px;
-  min-width: 120px;
-  border-radius: 8px;
+width: 70%;
+margin-top: 1em;
+margin-bottom: 1em;
+max-width: 250px;
+min-width: 120px;
+border-radius: 8px;
 }
 /* Skills*/
 
 #skills {
-  text-align: center;
-  padding: 5em 2em;
-  margin: 0 -15px;
-  min-height: 100vh;
-  height: 100%;
+text-align: center;
+padding: 5em 2em;
+margin: 0 -15px;
+min-height: 100vh;
+height: 100%;
 }
 
 /* skills */
 
 #skills {
-  text-align: center;
-  padding: 5em 2em;
-  margin: 0 -15px;
-  min-height: 100vh;
-  height: 100%;
+text-align: center;
+padding: 5em 2em;
+margin: 0 -15px;
+min-height: 100vh;
+height: 100%;
 }
 
 /* Portfolio */
 
 #portfolio {
-  text-align: center;
-  padding: 5em 2em;
-  margin: 0 -15px;
-  min-height: 100vh;
-  height: 100%;
+text-align: center;
+padding: 5em 2em;
+margin: 0 -15px;
+min-height: 100vh;
+height: 100%;
 }
 
+@media only screen and (max-width:768px){
+  #aboutme {
+    text-align: center;
+    min-height: 100vh;
+    height: 100%;
+    }
 
+  
+#portfolio {
+  background-color: #cecececd;
+  text-align: center;
+  color: black;
+  margin: 0 -15px;
+  padding: 5em 0 3em 0;
+  min-height: 100vh;
+  height: 100%;
+  }
+
+}
