@@ -7,7 +7,7 @@ body {
 }
 body {
   background: #fff;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .project-info {
@@ -183,7 +183,7 @@ body {
   top: 50%;
   margin-top: -3vw;
   text-align: center;
-  font-family: oswald;
+  font-family:'Fira Sans', sans-serif;
   font-size: 5vw;
   height: 10vw;
   opacity: 1;
@@ -197,7 +197,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.2em;
   opacity: 0.9;
-  font-family: Merriweather;
+  font-family: 'Fira Sans', sans-serif;
 }
 .content__right {
   display: flex;
@@ -206,7 +206,7 @@ body {
 }
 .content__right .content__main {
   position: absolute;
-  font-family: Merriweather, serif;
+  font-family: 'Fira Sans', sans-serif;
   text-align: left;
   color: #fff;
   font-size: 2vw;
@@ -227,7 +227,7 @@ body {
   right: -1vh;
   top: 35vh;
   opacity: 0.04;
-  font-family: oswald;
+  font-family: 'Fira Sans', sans-serif;
   color: #fff;
 }
 [data-type="Cipher-MD"] .content__left {
@@ -368,12 +368,12 @@ body {
   
   .card_content_mdlinks{
     padding: 1rem;
-    background: linear-gradient(to bottom left, rgb(32,11,59) 40%, rgb(141, 66, 238) 100%);;
+    background: linear-gradient( rgb(39, 37, 37) 40%, rgb(136, 133, 131) 100%);;
   }
 
   .card_content_pandmonium{
     padding: 1rem;
-    background: linear-gradient(to bottom left, rgb(242,10,10) 40%, rgb(226, 123, 123) 100%);;
+    background: linear-gradient(to bottom left, rgb(3, 74, 116) 40%, rgb(126, 157, 199) 100%);;
   }
 
   .card_title {
