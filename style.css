@@ -91,17 +91,6 @@ height: 100%;
 margin-left: 10rem ;
 }
 
-.aboutme{
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  align-items: center;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 80%;
-}
 
 #aboutme h5{
   font-size: 2rem;
