@@ -1,7 +1,6 @@
 /* Portfolio */
 html,
 body {
-  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -9,6 +8,21 @@ body {
   background: #fff;
   font-family: 'Fira Sans', sans-serif;
 }
+
+#portfolio{
+  text-align: center;
+  padding: 5em 2em;
+  margin: 0 -15px;
+  min-height: 100vh;
+  height: 100vh;
+  }
+
+#portfolio h4{
+
+  padding: 1em auto;
+  color: #0c8e9c;
+  font-size: 3rem;
+  }
 
 .project-info {
   margin-top: 0;
@@ -28,17 +42,17 @@ body {
   color: rgb(21, 156, 209);
 }
 
-.js-transitions-disabled * {
+/* .js-transitions-disabled * {
   transition: none !important;
 }
 .carousel {
   position: relative;
-  height: 100%;
-  overflow: hidden;
+  height: auto;
+  /* overflow: hidden; 
   perspective: 50vw;
   perspective-origin: 50% 50%;
-}
-.carousel__control {
+}*/
+/* .carousel__control {
   position: absolute;
   height: 160px;
   width: 40px;
@@ -220,7 +234,7 @@ body {
   /* text-transform: uppercase;
   letter-spacing: 0.15em;
   font-size: 0.85em;
-}  */
+}  
 .content__right .content__index {
   font-size: 30vh;
   position: absolute;
@@ -256,18 +270,36 @@ body {
 }
 .spinner--right [data-type="BurgerQueen"] .content__left {
   background-image: none;
-}
+} */ */
 
 .cards{
   display: none;
 }
 
+.mobile-projects{
+  display:none
+}
+
+.desktop-projects{
+  display: block;
+  height: auto;
+}
+
+
 
 @media only screen and (max-width:768px){
-  .carousel{
+  /* .carousel{
     display: none;
+  }*/
+  
+  .mobile-projects{
+    display: block;
   }
   
+  .desktop-projects{
+    display: none;
+  } 
+
   /* Design */
   *,
   *::before,
