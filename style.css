@@ -86,8 +86,7 @@ color: #0c8e9c98;
 /* About */
 #aboutme {
 text-align: center;
-min-height: 100vh;
-height: 100%;
+height: fit-content;
 margin-left: 10rem ;
 }
 
@@ -196,7 +195,7 @@ height: auto;
 }
 
 .icons img{
-  width: 80px;
+  width: 70px;
   margin: 0px 2px 25px 2px;
 
 }
@@ -657,13 +656,13 @@ h4{
 
     #skills h3 {
       margin-bottom: 2rem;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
 
     #skills h4 {
     padding: 1em auto;
     color: #0c8e9c;
-    font-size: 4rem;
+    font-size: 3rem;
    }
   
   .skills-container {
@@ -709,6 +708,10 @@ h4{
 
   .soft {
   color: #0c76bd86;
+  }
+
+  .desktop-projects{
+    display: none;
   }
 
   #footer {
