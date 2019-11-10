@@ -597,11 +597,13 @@ h4{
 
     #aboutme p{
       font-size: 1rem;
+      line-height: 1;
+      width: 100%
     }
 
     .img-merci {
       width: 93%;
-      margin-top: 3em;
+      margin-top: 2.5em;
       margin-bottom: 1em;
       max-width: 257px;
       min-width: 120px;
