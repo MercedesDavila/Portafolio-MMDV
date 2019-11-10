@@ -139,7 +139,7 @@ text-align: left!important;
 
 .img-merci {
   width: 74%;
-  margin-top: 3.5em;
+  margin-top: 6em;
   margin-bottom: 2em;
   max-width: 300px;
   min-width: 120px;
@@ -598,7 +598,7 @@ h4{
     #aboutme p{
       font-size: 1rem;
       line-height: 1;
-      width: 100%
+      width: 90%
     }
 
     .img-merci {
