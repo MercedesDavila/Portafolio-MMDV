@@ -32,7 +32,7 @@ body {
 
 .link-demo, .link-repo {
   color:rgb(21, 156, 209);
-  text-decoration: none;
+  text-decoration: double;
   background-color: transparent;
   font-size: 1.5rem;
   -webkit-text-decoration-skip: objects;
@@ -64,6 +64,8 @@ display: contents;
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+  width: inherit;
+
 }
 .blog-card a {
   color: inherit;
@@ -185,6 +187,8 @@ display: contents;
   .blog-card {
     flex-direction: row;
     max-width: 700px;
+    width: inherit;
+
   }
   .blog-card .meta {
     flex-basis: 40%;
@@ -268,6 +272,8 @@ display: contents;
     margin: 0 auto;
   }
   
+
+
   h1 {
       font-size: 24px;
       font-weight: 400;
@@ -304,6 +310,24 @@ display: contents;
     vertical-align: middle;
   }
   
+  .link-demo, .link-repo {
+    color:rgb(21, 156, 209);
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 1.5rem;
+    /* -webkit-text-decoration-skip: objects; */
+  }
+  
+  .link-demo:hover, .link-repo:hover{
+    color: rgb(21, 156, 209);
+  }
+
+  .react-icon, .css-icon, .js-icon, .html-icon, .npm-icon, .node-icon, .cv-icon{
+    vertical-align: sub;
+    width: auto;
+    height: auto;
+  }
+
   .btn {
     color: #ffffff;
     padding: 0.8rem;
