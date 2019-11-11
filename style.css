@@ -59,7 +59,7 @@ font-weight: bolder;
 
 
 .navbar-nav i{
-font-size: 1em;
+font-size: 2em;
 }
 
 /* Header*/ 
@@ -697,10 +697,18 @@ h4{
   align-items: center;
   }
 
+  .skill-icons{
+    width: 64px;
+  }
+
+  .skill-icon{
+    width: 67px;
+  }
+
   .skillsIcons {
   font-size: 1.5rem;
   height: 3.5rem;
-  width: 3.5rem;
+  /* width: 3.5rem; */
   color: #02265cbd;
   margin: 1rem 1rem 0;
   text-align: center;

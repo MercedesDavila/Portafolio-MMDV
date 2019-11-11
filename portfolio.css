@@ -116,6 +116,14 @@ display: contents;
   display: inline-block;
 }
 
+.card-icons{
+  width: 40px;
+}
+
+.card-icon{
+  width: 45px;
+}
+
 .blog-card .details .tags li {
   margin-right: 2px;
 }
