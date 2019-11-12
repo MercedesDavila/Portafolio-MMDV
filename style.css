@@ -656,7 +656,7 @@ h4{
       text-align: center;
       color: black;
       margin: 0 -15px;
-      padding: 2.5em 0 3em 0;
+      padding: 2em 0 3em 0;
       min-height: 100vh;
       height: 100%;
     }
@@ -691,7 +691,7 @@ h4{
       background-color: #cecececd;
       text-align: center;
       color: black;
-      padding: 2.5em 0 0 0;
+      padding: 2em 0 0 0;
       min-height: 100vh;
       height: auto;
     }
@@ -719,6 +719,7 @@ h4{
   .soft-container {
   width: 87%;
   margin: 0 auto;
+  padding-bottom: 2rem;
   }
 
   .skill-box {
@@ -732,7 +733,7 @@ h4{
   line-height: 1.5;
   }
 
-  .skill-box, .skillsIcons {
+  .skill-box, .skillsIcons, .skillsIcons-soft {
   display: flex;
   justify-content: center;
   align-items: center;
