@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <link rel="stylesheet" href="portfolio.css" type="text/css" media="screen"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     
     <title>Portafolio de Mercedes Dávila V. - Front-End Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krub|Open+Sans"> 
 	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
@@ -27,7 +27,7 @@
                       <a class="navbar-brand text-center" href="#aboutme">
                       MMDV
                       </a>
-                  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar">
+                  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar" >
                       <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="navbar-collapse collapse" id="navbar">
@@ -75,13 +75,20 @@
             <img src="img\Merci.jpg" class="img-merci" alt="Mercedes">
             <h5>¡Hola! Soy M. Mercedes Dávila Vázquez.</h5>
             <h4>Front End Developer.</h4>
-            <p>Me gusta desarrollar aplicaciones web útiles e inteligentes para mejorar la experiencia de usuario, con gusto por aprender día a día cosas nuevas.</p>	
+            <p>Me gusta desarrollar aplicaciones web útiles e inteligentes para mejorar la experiencia de usuario, con gusto por aprender cosas nuevas día a día.</p>	
             <h5>Contacto:</h5>
-            <p class="icons-am">
-                    <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank" title="Linkedin"><i class="fab fa-linkedin fa-3x"></i> </a>
-                    <a href="https://github.com/MercedesDavila" target="_blank" title="Github"><i class="fab fa-github-square fa-3x"></i></a>
-                    <a href="https://drive.google.com/file/d/1xwFjORYGFbFH2_Xz0Jl-EcmSMDw1LWhd/view?usp=sharing" target="_blank" title="CV"><i class="fas fa-copy fa-3x"></i></a>
-                    <a href="mailto:mmdavila@outlook.com" title="Contacto"><i class="fas fa-envelope-square fa-3x"></i></a>
+            <p class="icons-am contact-desktop">
+                    <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank" title="Linkedin" ><img src="img/in.png"class="icon-am-desk" ></i></a>
+                    <a href="https://github.com/MercedesDavila" target="_blank" title="Github"><img src="img/gh.png" class="icon-am-desk"></i></a>
+                    <a href="https://drive.google.com/file/d/1xwFjORYGFbFH2_Xz0Jl-EcmSMDw1LWhd/view?usp=sharing" target="_blank" title="CV"><img src="img/cv.png" class="icon-am-desk"></i></a>
+                    <a href="mailto:mmdavila@outlook.com" title="Contacto"><img src="img/mail.png" class="icon-am-desk"></i></a>
+            </p>
+            <p class="icons-am contact-mobile">
+                <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" target="_blank" title="Linkedin" ><img src="img/in.png" class="icon-am-mb" class="skills-box"><i></a>
+                <a href="https://github.com/MercedesDavila" target="_blank" title="Github"><img src="img/gh.png" class="icon-am-mb"></i></a>
+                <a href="https://drive.google.com/file/d/1xwFjORYGFbFH2_Xz0Jl-EcmSMDw1LWhd/view?usp=sharing" target="_blank" title="CV"><img src="img/cv.png" class="icon-am-mb" ></i></a>
+                <a href="mailto:mmdavila@outlook.com" title="Contacto"><img src="img/mail.png" class="icon-am-mb" ></i></a>
+
             </p>
 
         </div>
@@ -146,9 +153,9 @@
                 <h3>Técnicas</h3>
             <div class="skills-container">
                 
+                <p class="skills-box"><label class="skillsIcons"><img src="./img/js.png" style="width: 60px; height: 60px"></i></label><span>JavaScript</span></p>
                 <p class="skills-box"><label class="skillsIcons"><img src="./img/html5.png" style="width: 60px; height: 60px"></i></label><span>HTML</span></p>
                 <p class="skills-box"><label class="skillsIcons"><img src="./img/css3.png" style="width: 68px; height: 68px"></i></label><span>CSS</span></p>
-                <p class="skills-box"><label class="skillsIcons"><img src="./img/js.png" style="width: 60px; height: 60px"></i></label><span>JavaScript</span></p>
                 <p class="skills-box"><label class="skillsIcons"><img src="./img/nodejs.png" style="width: 60px; height: 60px"></i></label><span>NODEJS</span></p>
                 <p class="skills-box"><label class="skillsIcons"><img src="./img/react.png" style="width: 60px; height: 60px"></i></label><span>ReactJS</span></p>
                 <p class="skills-box"><label class="skillsIcons"><img src="./img/npm2.png" style="width: 60px; height: 60px"></i></label><span>NPM</span></p>
@@ -310,12 +317,13 @@
                           Aplicación creada para el restaurante Pan D'Monium, con el fin de mejorar la toma de comandas.
                       </p>
             
-                      <p class="icon-projects"><br><img class="react-icon" src="./img/react.png" style="width: 40px;"></i> <img class="html-icon" src="./img/html5.png" style="width: 40px;"> <img class="js-icon" src="./img/js.png" style="width: 40px;"></i> <img class="css-icon" src="./img/css3.png" style="width: 45px;"></i></p>
+                      <p class="icon-projects"><br><img class="firebase-icon" src="./img/firebase.png" style="width: 40px;">   <img class="react-icon" src="./img/react.png" style="width: 40px;"></i>  <img class="html-icon" src="./img/html5.png" style="width: 40px;"> <img class="js-icon" src="./img/js.png" style="width: 40px;"></i> <img class="css-icon" src="./img/css3.png" style="width: 45px;"></i></p>
                     </div>
           
-                      <a class="link-demo" href="https://mercedesdavila.github.io/Pandmonium/" target="_blank" title="MD-Links"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a>
+                      <p class="btn-demo"><a class="link-demo" href="https://mercedesdavila.github.io/Pandmonium/" target="_blank" title="MD-Links"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a></p>
                       <br>
-                      <a class="link-repo" href="https://github.com/MercedesDavila/Pandmonium" target="_blank" title="NPM-MDLINKS"><i class="fab fa-github-square fa-1x  "></i> Github</a>
+                      
+                      <p class="btn-github"><a class="link-repo" href="https://github.com/MercedesDavila/Pandmonium" target="_blank" title="NPM-MDLINKS"><i class="fab fa-github-square fa-1x  "></i> Github</a></p>
                   </div>
         
         
@@ -335,9 +343,9 @@
         
                     </div>
         
-                        <a class="link-demo" href="https://mercedesdavila.github.io/MEX-Data-Lovers-008/src/" target="_blank" title="Pokemon"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a>
+                        <p class="btn-demo"><a class="link-demo" href="https://mercedesdavila.github.io/MEX-Data-Lovers-008/src/" target="_blank" title="Pokemon"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a></p>
                         <br>
-                        <a class="link-repo" href="https://github.com/MercedesDavila/MEX-Data-Lovers-008" target="_blank" title="Github-Pokemon"><i class="fab fa-github-square fa-1x"></i> Github </a>
+                        <p class="btn-github"><a class="link-repo" href="https://github.com/MercedesDavila/MEX-Data-Lovers-008" target="_blank" title="Github-Pokemon"><i class="fab fa-github-square fa-1x"></i> Github </a></p>
 
                   </div>
         
@@ -358,9 +366,9 @@
         
                     </div>
         
-                        <a class="link-demo" href="https://mercedesdavila.github.io/MEX008-lab-ar/index.html" target="_blank" title="Lab &ltar"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a>
+                        <p class="btn-demo"><a class="link-demo" href="https://mercedesdavila.github.io/MEX008-lab-ar/index.html" target="_blank" title="Lab &ltar"><i class="fas fa-external-link-alt fa-1x"></i> Demo </a> </p>
                         <br>
-                        <a class="link-repo" href="https://github.com/MercedesDavila/MEX008-lab-ar" target="_blank" title="Lab &ltar"><i class="fab fa-github-square fa-1x"></i> Github </a>
+                        <p class="btn-github"><a class="link-repo" href="https://github.com/MercedesDavila/MEX008-lab-ar" target="_blank" title="Lab &ltar"><i class="fab fa-github-square fa-1x"></i> Github </a></p>
                   </div>
         
                   <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 300px; overflow: hidden; border-radius: 1px;">
@@ -380,9 +388,9 @@
         
                     </div>
         
-                        <a class="link-demo" href="https://www.npmjs.com/package/md-links-md" target="_blank" title="MD-Links"><i class="fas fa-external-link-alt fa-1x"></i> Perfil NPM. </a>
+                        <p class="btn-demo"><a class="link-demo" href="https://www.npmjs.com/package/md-links-md" target="_blank" title="MD-Links"><i class="fab fa-npm fa-1x"></i></i> Perfil NPM. </a></p>
                         <br>
-                        <a class="link-repo" href="https://github.com/MercedesDavila/MEX008-FE-md-link" target="_blank" title="NPM-MDLINKS"><i class="fab fa-npm fa-1x"></i> Proyecto - MD-Links </a> 
+                        <p class="btn-github"><a class="link-repo" href="https://github.com/MercedesDavila/MEX008-FE-md-link" target="_blank" title="NPM-MDLINKS"><i class="fab fa-github-square fa-1x"></i> GitHub </a></p>
                   </div>
                 </div>
         
@@ -395,18 +403,18 @@
         <footer class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-0">
                     <p class="footer-p">Portafolio de M. Mercedes Dávila Vázquez</p>
-                    <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" class="btn-contact" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                    <a href="https://github.com/MercedesDavila" class="btn-contact" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>                   
-                    <a href="./documents/CV_M.Mercedes_Dávila_Vázquez.pdf" target="_blank" title=" Descargar CV" download="CV María Mercedes Dávila Vázquez"class="btn-contact"><i class="fas fa-copy fa-2x"></i></a>
-                    <a href="mailto:mmdavila@outlook.com" class="btn-contact" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/maria-mercedes-davila-vazquez/" class="btn-contact" target="_blank"><img src="./img/in.png" style="width:36px; height:36px ; vertical-align: bottom;"></i></a>
+                    <a href="https://github.com/MercedesDavila" class="btn-contact" target="_blank"><img src="./img/gh.png" style="width:36px; height:36px ; vertical-align: bottom;"></i></a>                   
+                    <a href="./documents/CV_M.Mercedes_Dávila_Vázquez.pdf" target="_blank" title=" Descargar CV" download="CV María Mercedes Dávila Vázquez"class="btn-contact"><img src="./img/cv.png" style="width:36px; height:36px ; vertical-align: bottom;"></i></a>
+                    <a href="mailto:mmdavila@outlook.com" class="btn-contact" target="_blank"><img src="./img/mail.png" style="width:36px; height:36px ; vertical-align: bottom;"></i></a>
                 </div>
         </footer>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
 
 </body>

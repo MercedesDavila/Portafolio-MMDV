@@ -44,10 +44,10 @@ background-color: #0c8e9c;
 margin: 2px;
 }
 
-.btn:hover {
+/* .btn:hover {
 color: #0c8e9c;
 background-color: whitesmoke;
-}
+} */
 
 /* Nav */
 
@@ -86,7 +86,7 @@ color: #0c8e9c98;
 /* About */
 #aboutme {
 text-align: center;
-height: fit-content;
+height: 100vh;
 margin-left: 10rem ;
 }
 
@@ -96,15 +96,18 @@ margin-left: 10rem ;
 }
 
 #aboutme h4{
+margin-bottom: 1rem ;
 padding: 1em auto;
 color: #0c8e9c;
 font-size: 2rem;
 }
 
 #aboutme p{
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   line-height: 1;
   width: 120%;
+
 }
 
 
@@ -116,6 +119,15 @@ color: #0c8e9c;
 color: #0c8e9c98;
 }
 
+.icon-am-desk{
+  width:45px; 
+  vertical-align: bottom;
+}
+
+
+.contact-mobile{
+  display: none;
+}
 
 .col-centered{
 float: none;
@@ -139,6 +151,7 @@ text-align: left!important;
 
 .img-merci {
   width: 74%;
+  height: auto;
   margin-top: 6em;
   margin-bottom: 2em;
   max-width: 300px;
@@ -155,14 +168,21 @@ padding: 4.3em 2em;
 margin: 0 -15px;
 min-height: 100vh;
 height: auto;
+background-color: #cecececd;;
 } 
 
 #skills h4{
   padding: 1em auto;
   color: #0c8e9c;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  }
+
+#skills h3{
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  }
+}
 
 .flexbox-container {
   display: -ms-flex;
@@ -189,10 +209,7 @@ height: auto;
   margin-bottom: 0.5rem;
   }
 
-#skills h3{
-  
-  margin-bottom: 2rem;
-}
+
 
 .icons img{
   width: 70px;
@@ -282,7 +299,7 @@ display: none;
    font-variant-ligatures: none;
    box-sizing: border-box;
    font-family: 'Fira Sans', sans-serif;
-   background-color: #fafafa;
+   background-color: transparent;
 }
 body::before,
 body::after {
@@ -591,6 +608,12 @@ h4{
     margin-left:0;
     }
 
+    #aboutme h4 {
+      padding: 1em auto;
+      color: #0c8e9c;
+      font-size: 1.8rem;
+    }
+
     #aboutme h5{
       font-size: 1.5rem;
     }
@@ -601,22 +624,39 @@ h4{
       width: 90%
     }
 
+    .icon-am-mb{
+      width:40px; 
+      height:40px; 
+      vertical-align: bottom;
+    }
+
+    .contact-desktop{
+      display: none;
+    }
+
+    .contact-mobile{
+      display: block;
+      margin-left: 4rem;
+    }
+
     .img-merci {
       width: 93%;
+      height: auto;
       margin-top: 2.5em;
       margin-bottom: 1em;
       max-width: 257px;
       min-width: 120px;
       border-radius: 8px;
+      margin-left:1em ;
     }
 
   
     #portfolio {
-      background-color: #cecececd;
+      background-color: transparent;
       text-align: center;
       color: black;
       margin: 0 -15px;
-      padding: 3.5em 0 3em 0;
+      padding: 2.5em 0 3em 0;
       min-height: 100vh;
       height: 100%;
     }
@@ -651,12 +691,13 @@ h4{
       background-color: #cecececd;
       text-align: center;
       color: black;
-      padding: 3em 0 3em 0;
+      padding: 2.5em 0 0 0;
       min-height: 100vh;
       height: auto;
     }
 
     #skills h3 {
+      margin-top: 2rem;
       margin-bottom: 2rem;
       font-size: 1.5rem;
     }

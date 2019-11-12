@@ -19,6 +19,7 @@ body {
 
 #portfolio h4{
 
+  margin-bottom: 2rem ;
   padding: 1em auto;
   color: #0c8e9c;
   font-size: 2rem;
@@ -60,7 +61,7 @@ display: contents;
   margin-bottom: 1.6%;
   background: #fff;
   line-height: 1.4;
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
@@ -137,7 +138,7 @@ display: contents;
   z-index: 1;
 }
 .blog-card .description h1, .blog-card .description h2 {
-  font-family: Poppins, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 .blog-card .description h1 {
   line-height: 1;
@@ -319,8 +320,8 @@ display: contents;
   }
   
   .link-demo, .link-repo {
-    color:rgb(21, 156, 209);
-    text-decoration: underline;
+    color:aliceblue;
+    text-decoration: none;
     background-color: transparent;
     font-size: 1.5rem;
     /* -webkit-text-decoration-skip: objects; */
@@ -330,10 +331,17 @@ display: contents;
     color: rgb(21, 156, 209);
   }
 
-  .react-icon, .css-icon, .js-icon, .html-icon, .npm-icon, .node-icon, .cv-icon{
+  .react-icon, .css-icon, .js-icon, .html-icon, .npm-icon, .node-icon, .cv-icon, .firebase-icon{
     vertical-align: sub;
     width: auto;
     height: auto;
+  }
+
+  .btn-demo, .btn-github{
+    border-style: double;
+    margin-bottom: auto;
+    background-color: #17a2b8;
+    color: aliceblue;
   }
 
   .btn {
